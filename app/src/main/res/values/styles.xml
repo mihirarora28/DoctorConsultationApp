@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+<!--    -->
+<!--    <android.widget.SearchView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/search_view"-->
+<!--        style="@style/SearchViewStyle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_gravity="end" />-->
+
+<!--    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">-->
+<!--        &lt;!&ndash; Gets rid of the search icon &ndash;&gt;-->
+<!--        <item name="searchIcon">@drawable/ic_baseline_search_24</item>-->
+<!--        &lt;!&ndash; Gets rid of the "underline" in the text &ndash;&gt;-->
+<!--        <item name="queryBackground">@color/whites</item>-->
+<!--        &lt;!&ndash; Gets rid of the search icon when the SearchView is expanded &ndash;&gt;-->
+<!--        <item name="searchHintIcon">@null</item>-->
+<!--        &lt;!&ndash; The hint text that appears when the user has not typed anything &ndash;&gt;-->
+<!--        <item name="queryHint">@string/search_hint</item>-->
+<!--    </style>-->
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".DrCKSharma">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="DR. CK SHARMA"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/whites"
+        android:layout_height="wrap_content"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cardiologist3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DR. CK Sharma"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Dr. CK Sharma has done his graduation (MBBS) from prestigious University College of Medical Sciences, Delhi following which he pursued his post graduation in Anesthesiology and Critical Care from Safdarjung Hospital, New Delhi. Thereafter he did his 2nd post graduation in Internal Medicine from Delhi University, his Internal Medicine training is from reputed Dr. Ram Manohar Hospital, New Delhi. He also had done post graduation diploma in Hospital and Health Management from ESI hospital, New Delhi. He is a certified infectious disease from reputed PD Hinduja hospital and Medical Research Institute, Mumbai."
+        />
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_call_24"
+            />
+        <TextView
+            android:id="@+id/test"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+919779793046"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/button"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALL"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_email_24"
+            />
+        <TextView
+            android:id="@+id/test2"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     cksharma@gmail.com"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="EMAIL"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

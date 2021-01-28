@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "669911413711",
+    "firebase_url": "https://onlineopd-648f9.firebaseio.com",
+    "project_id": "onlineopd-648f9",
+    "storage_bucket": "onlineopd-648f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669911413711:android:941245586654772f0918ba",
+        "android_client_info": {
+          "package_name": "com.example.onlineopd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669911413711-34ghn1s7migqc9tt950f27i91bmjbf32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3CpzehRMG4ZKjx35YgKYSArMwJ1a8M7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669911413711-34ghn1s7migqc9tt950f27i91bmjbf32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

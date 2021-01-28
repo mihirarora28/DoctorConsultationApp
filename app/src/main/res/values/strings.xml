@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">OnlineOPD</string>
+    <string-array name="Spinner_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="bloodSpinner">
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>A-</item>
+        <item>A-</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="doctors">
+
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>Audiologist</item>
+        <item>Orthopaedic Surgaon</item>
+        <item>Neurologist</item>
+        <item>Paediatrician</item>
+        <item>Urologist</item>
+    </string-array>
+    <string-array name="description">
+        <item>Problems related to Heart</item>
+        <item>Problems related to Teeth</item>
+        <item>Problems related to Ears</item>
+        <item>Problems related to Bones</item>
+        <item>Problems related to Brain</item>
+        <item>Problems related to Children</item>
+        <item>Problems related to Kidneys</item>
+    </string-array>
+
+
+    <string-array name="cardionames">
+        <item>Dr. Ajay Mishra</item>
+        <item>Dr. Aman Sharma</item>
+        <item>Dr. CK Sharma</item>
+        <item>Dr. KK Arora </item>
+        <item>Dr. Neeraj Kumar</item>
+        <item>Dr. CC Koli</item>
+    </string-array>
+    <string-array name="dentistnames">
+        <item>Dr. CK Sharma </item>
+        <item>Dr. Ankita Wadhwa</item>
+        <item>Dr. Riya Sharma</item>
+        <item>Dr. Manoj Girdhar </item>
+        <item>Dr. Neelan Setia</item>
+        <item>Dr. Kanika Kumar</item>
+    </string-array>
+    <string-array name="orthonames">
+        <item>Dr. Deepanshu Yadav </item>
+        <item>Dr. LL Khan</item>
+        <item>Dr. CK Sharma</item>
+        <item>Dr. JJ Lobby </item>
+        <item>Dr. AA Arora </item>
+        <item>Dr. Kolad Sharma </item>
+    </string-array>
+    <string-array name="neurologist">
+        <item>Dr. A Sharma </item>
+        <item>Dr. CC Khan</item>
+        <item>Dr. JJ Lobby </item>
+        <item>Dr. Manoj Kumar</item>
+        <item>Dr. AA Arora </item>
+        <item>Dr. Kolad Sharma </item>
+    </string-array>
+    <string-array name="urologist">
+        <item>Dr. A.K Yadav </item>
+        <item>Dr. LL Khan</item>
+        <item>Dr. CK Sharma</item>
+        <item>Dr. JJ Khan </item>
+        <item>Dr. AA Girdhar </item>
+        <item>Dr. Himanshu Koli</item>
+    </string-array>
+    <string-array name="paeditrican">
+        <item>Dr. QQ Sharma</item>
+        <item>Dr. P Sharma</item>
+        <item>Dr. PK Arora</item>
+        <item>Dr. Sahil Arora </item>
+        <item>Dr. Wein Arora </item>
+        <item>Dr. Polas Sharma </item>
+    </string-array>
+    <string-array name="audiologist">
+        <item>Dr. AA Yadav </item>
+        <item>Dr. Pola Khan</item>
+        <item>Dr. ZK Sharma</item>
+        <item>Dr. JC Lobby </item>
+        <item>Dr. MM Arora </item>
+        <item>Dr. MK Mishra </item>
+    </string-array>
+    <string-array name="cardioExperience">
+        <item>12 years</item>
+        <item>8 years</item>
+        <item>5 years</item>
+        <item>9 years</item>
+        <item>4 years</item>
+        <item>10 years</item>
+    </string-array>
+    <string-array name="cardioSurgeries">
+        <item>67 surgeries</item>
+        <item>33 surgeries</item>
+        <item>55 surgeries</item>
+        <item>61 surgeries</item>
+        <item>101 surgeries</item>
+        <item>98 surgeries</item>
+    </string-array>
+    <string-array name="cardioLocation">
+        <item>Gurugram</item>
+        <item>Vasant Kunj, Delhi</item>
+        <item>Faridabad</item>
+        <item>Gurugram</item>
+        <item>Panipat</item>
+        <item>Sonipat</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

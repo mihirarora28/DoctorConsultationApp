@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".EditProfile">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar1"
+        app:titleTextColor="@color/whites"
+        app:title="PROFILE "
+        />
+<de.hdodenhof.circleimageview.CircleImageView
+
+    android:src="@drawable/audiologist2"
+    android:id="@+id/imagesEdit"
+    android:textAlignment="center"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_height="250dp"
+   android:layout_gravity="center"
+    />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SAVE"
+        android:enabled="false"
+
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:background="@color/mycoloe"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:id="@+id/names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME: "
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+
+                />
+    <TextView
+
+        android:textSize="25dp"
+        android:text="14224"
+        android:id="@+id/namesss"
+        android:background="@color/mycoloe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/mycoloe"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+
+        >
+        <TextView
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:id="@+id/emailss"
+
+            android:text="EMAIL ID: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:background="@color/mycoloe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"            />
+        <TextView
+            android:text="14224"
+            android:id="@+id/emailsss"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/mycoloe"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:background="@color/mycoloe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:id="@+id/GENDERSS"
+            android:text="GENDER: "
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:background="@color/mycoloe"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginRight="5dp"
+
+            />
+        <TextView
+            android:text="14224"
+            android:id="@+id/GENDERSSS"
+            android:textSize="25dp"
+            android:background="@color/mycoloe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:background="@color/mycoloe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+            android:id="@+id/blood"
+            android:text="BLOOD: "
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:background="@color/mycoloe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+
+            />
+        <TextView
+            android:text="14224"
+            android:id="@+id/blooddd"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:text="EDIT IMAGE"
+        android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:id="@+id/editImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:text="EDIT INFORMATION"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:id="@+id/editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:text="RESET PASSWORD"
+        android:textSize="25dp"
+        android:id="@+id/resetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

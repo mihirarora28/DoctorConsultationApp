@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mycoloe"
+    tools:context=".About">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="ABOUT US "
+     app:titleTextColor="@color/whites"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:gravity="center"
+        android:text="DEVELOPERS! "
+        android:textColor="@color/colorPrimary"
+     android:textStyle="italic"
+        android:fontFamily="@font/bangers"
+        android:textSize="70dp"
+        />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+<de.hdodenhof.circleimageview.CircleImageView
+
+       android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/mihir2"
+
+    />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/jayant"
+            />
+  </LinearLayout>
+
+
+
+      <TextView
+          android:textAlignment="center"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:textSize="20dp"
+          android:textColor="@color/black"
+
+       android:textStyle="italic"
+          android:text="Online OPD is created by Mihir Arora and Jayant Dua students of YMCA University of science and Technology. This app is used to consult a doctor online through email and call and keeps track of all your activities and saves them in Firestore Cloud Storage . This app has many features including animations, use of different classes like calendar, countdown timer etc. Phone , email authentication,Sign in , Sign Out, Reset Password and many features are also added in this app."
+        />
+
+
+    </LinearLayout>
+    </LinearLayout>
